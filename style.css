@@ -1,0 +1,351 @@
+#hometop{
+	background-color: white;
+	color: black;
+	height: 60px;
+	text-align: right;
+	position: static;
+	margin-top: 25px;
+}
+
+.b{
+	margin-right: 10px;
+	margin-top: 15px;
+	border-color: white;
+	background-color: white;
+	border-style: solid;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.b:hover {
+  	color: deepskyblue;
+}
+
+
+.b1 {
+ 	background-color: orange; 
+  	color: black;
+  	font-size: 20px;
+  	font-family: all;
+ 	padding-left: 20px;
+  	padding-right: 20px;
+  	border: none;
+}	
+
+.b1:hover {
+  	background-color: black;
+  	color: white;
+}
+
+#logo{
+	height: 70px;
+	background-color: white;
+	margin-left: 200px;
+	margin-right: auto;
+	font-size: 130%;
+}
+
+#header{
+	background-color: deepskyblue;
+	height: 60px;
+}
+
+.b2 {
+	color: white;
+	border-style: none;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: deepskyblue;
+	margin-left: 200px;
+}
+
+.b2:hover{
+	color: black;
+}
+
+.b3 {
+	color: white;
+	margin-top: 17px;
+	border-style: none;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: deepskyblue;
+	margin-left: 40px;
+}
+
+.b3:hover{
+	color: black;
+}
+
+.b4 {
+	background-color: yellow; 
+  	color: black;
+  	font-size: 20px;
+  	font-family: all;
+ 	padding-left: 20px;
+  	padding-right: 20px;
+  	border-style: solid;
+}
+
+.b4:hover{
+	background-color: black;
+  	color: white;
+}
+
+#bottomhalf{
+	background-color: lightgrey;
+	height: 2000px;
+	width: 100%;
+	position: absolute;
+}
+
+#slider1{
+	height: 500px;
+	width: 1000px;
+	margin-top: 50px;
+}
+
+#s1text{
+	color: white;
+	color: royalblue;
+	font-weight : bolder;
+	margin-left: 150px;
+	margin-top: 20px;
+	font-size: 50px;
+	margin-right: 150px;
+}
+
+#s1text1{
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+#s1text2{
+	color: red;
+	font-weight : bolder;
+	margin-left: 150px;
+	margin-top: 15px;
+	font-size: 30px;
+	margin-right: 150px;
+}
+
+#events{
+	height: 200px;
+	width: auto;
+	margin-top: 30px;
+}
+
+#E1{
+	height: 400px;
+	width: 600px;
+	position: absolute;
+	text-align: left;
+	margin-left: 0px;
+
+}
+
+#E2{
+	margin-right: 10px;
+	height: 100px;
+	width: 600px;
+	position: absolute;
+	margin-left: 450px;
+}
+
+#E3{
+	margin-right: 10px;
+	height: 100px;
+	width: 600px;
+	position: absolute;
+	margin-left: 900px;
+	margin-right: 150px;
+}
+
+
+#slider2{
+	height: 500px;
+	width: 1000px;
+	margin-top: 100px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: floralwhite;
+  font-weight: bold;
+  font-size: 35px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  overflow: hidden;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+#abouthalfimage{
+	background-image: url("images/about.jpg");
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 1515px;
+  height: 700px;
+  position: absolute;
+}
+
+#abouthalf{
+	background-color: lightgrey;
+	height: 1000px;
+	width: 100%;
+	position: absolute;
+	color: white;
+}
+
+#abouttext{
+	color: white;
+	font-weight: bolder;
+	margin-left: 200px;
+	font-size: 250%;
+	font-family: cursive;
+}
+
+#abouttext1{
+	color: white;
+	font-weight: bolder;
+	margin-left: 150px;
+	font-size: 180%;
+	font-family: cursive;
+}
+
+#abouttext2{
+	color: white;
+	font-weight: bolder;
+	margin-left: 200px;
+	margin-right: 800px;
+	font-size: 100%;
+	font-family: cursive;
+}
+
+#abtgrn{
+	height: 200px;
+	width: 1520px;
+	margin-top: 700px;
+	background-color: #25ce85;
+}
+
+#abtc{
+	text-align: center;
+	font-size: 150%;
+	padding-top: 30px;
+}
+
+#abtl{
+	width: 400px;
+	margin-left: 200px;
+	position: absolute;
+	font-size: 120%;
+}
+
+#abtr{
+	width: 400px;
+	margin-left: 900px;
+	position: absolute;
+	font-size: 120%;
+}
+
+#abtblue{
+	background-color: #2d3047;
+	height: 800px;
+	width: 1520px;
+	margin-top: -50px;
+}
+
+#abtbluetext{
+	color: white;
+	font-weight: bolder;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 100%;
+}
+
+#a{
+	background-color: none;
+}
+
+#contact{
+	height: 400px;
+	background-color: #25ce85;
+	color: white;
+}
+
+#cbox1{
+	margin-left: 200px;
+	margin-top: -25px;
+	margin-right: 1050px;
+	position: absolute;
+}
+
+#cbox2{
+	margin-left: 650px;
+	margin-right: 600px;
+	position: absolute;
+}
+
+#cbox3{
+	margin-left: 1050px;
+	margin-right: 150px;
+	position: absolute;
+}
+
+#ch1{
+
+}
+
+#ctext1{
+	padding-top: 25px;
+	font-size: 140%;
+	font-weight: bold;
+	font-family: serif;
+	text-align: center;
+}
+
+
+#ctext2{
+	font-size: 140%;
+	font-weight: bold;
+	font-family: serif;
+	text-align: center;
+}
+
+#ctext3{
+	color: black;
+}
+
+#contactus{
+	height: 400px;
+	background-color: #25ce85;
+	color: white;
+}
